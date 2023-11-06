@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'og-bold';
+    src: url('../assets/fonts/OakesGrotesk-Bold.woff2') format('woff2'),
+        url('../assets/fonts/OakesGrotesk-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'og-light';
+    src: url('../assets/fonts/OakesGrotesk-Light.woff2') format('woff2'),
+        url('../assets/fonts/OakesGrotesk-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'og-medium';
+    src: url('../assets/fonts/OakesGrotesk-Medium.woff2') format('woff2'),
+        url('../assets/fonts/OakesGrotesk-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'og-regular';
+    src: url('../assets/fonts/OakesGrotesk-Regular.woff2') format('woff2'),
+        url('../assets/fonts/OakesGrotesk-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'og-semibold';
+    src: url('../assets/fonts/OakesGrotesk-SemiBold.woff2') format('woff2'),
+        url('../assets/fonts/OakesGrotesk-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
