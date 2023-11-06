@@ -1,5 +1,6 @@
 @media screen and (max-width: 1700px) {
     html{font-size: 55%;}
+    .nav-container .navBar .navlist{column-gap: 3rem;}
  }
  
  @media screen and (max-width: 1500px) {
