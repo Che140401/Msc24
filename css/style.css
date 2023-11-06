@@ -13,7 +13,7 @@ html{
 }
 
 :root{
-    --yellow: #F1C50EE5;
+    --yellow: #F1C50E;
     --black: #262626;
     --blue: #0066B2;
     --white: #FFFFFF;
@@ -29,10 +29,10 @@ p,.p24{font-size: 2.4rem;}
 .head40{font-size: 4rem;}
 .head64{font-size: 6.4rem;}
 .section-heading{font-size: 9.6rem;font-family: 'og-bold';}
-.blue-btn{display: flex;align-items:center;justify-content: center; cursor: pointer;background: var(--blue);padding:2.6rem 4.8rem;}
+.blue-btn{border:none;width:max-content;display: flex;align-items:center;justify-content: center; cursor: pointer;background: var(--blue);padding:2.6rem 4.8rem;}
 .blue-btn:hover{background-color: #00ACEE;}
 .blue-btn p{color: #fff;font-family: 'og-medium';margin-right:28px;}
-.white-btn{background-color: #E8E8E8;padding:2.6rem 7.4rem;cursor: pointer;display:flex;justify-content: center;align-items: center;}
+.white-btn{width:max-content;background-color: #E8E8E8;padding:2.6rem 7.4rem;cursor: pointer;display:flex;justify-content: center;align-items: center;}
 .white-btn:hover{background-color:#c0c0c0;}
 .white-btn p{color: var(--black);line-height: 1;font-family: 'og-medium';}
 
@@ -98,7 +98,11 @@ p,.p24{font-size: 2.4rem;}
 /* section-courses */
 .section-courses{background-color: #181C22;padding: 17.4rem 0rem;}
 .section-courses .courses-box{display: flex;justify-content: space-between;}
-.section-courses .courses-box .left-box{display: grid;grid-template-columns: 1fr 1fr;grid-column-gap: 3rem; width: 63.32%;}
+.section-courses .courses-box .left-box{ width: 63.32%;}
+.section-courses .courses-box .left-box .slider-child{display: grid;grid-template-columns: 1fr 1fr;grid-column-gap: 3rem}
+.section-courses .courses-box .left-box  .slick-dots{position: absolute;left: -50px;row-gap: 7rem;top: 50%;display: flex;transform: translate(-50%,-50%);flex-direction: column;}
+.section-courses .courses-box .left-box  .slick-dots button{background: #737373;color: transparent;border-radius: 50%;width: 15px;height: 15px;border: none;}
+.section-courses .courses-box .left-box  .slick-dots .slick-active button{background-color: var(--yellow);}
 .section-courses .courses-box .left-box .content-box .head40{line-height: 1.2;color: #fff;font-family: 'og-bold';margin-top: 3.4rem;}
 .section-courses .courses-box .right-box{width:33.5%;}
 .section-courses .courses-box .right-box .rbox-head h2{margin-bottom:3rem;font-size: 9.6rem;color: var(--yellow);line-height: 1;font-family: 'og-regular';font-weight: 400;}
@@ -158,6 +162,40 @@ p,.p24{font-size: 2.4rem;}
 .section-why-msc{padding: 20rem 0 19rem;}
 .section-why-msc .section-heading{color: #F1C50E;margin-bottom: 4rem;}
 .section-why-msc .p32{font-family: 'og-medium';line-height: 1.3;}
+
+/* section-welcome */
+.section-welcome{padding: 7.4rem 0rem 31rem 0rem;background: url('../assets/img/welcome-bg.webp');background-size: cover;background-repeat: no-repeat;}
+.welcome-container{max-width: 1525px;width: 90%;margin: 0 auto;}
+.section-welcome .inner-contain h2{margin-bottom:15px;line-height: 1;font-size: 12.8rem;color: var(--yellow);text-align: center;font-family: 'og-bold';}
+.section-welcome .inner-contain .head48{margin-bottom:5rem;color: var(--black);line-height: 1.5;text-align: center;font-family: 'og-medium';}
+.section-welcome .inner-contain .p36{font-family: 'og-regular';font-weight: 400;color: var(--black);text-align: center;}
+.section-welcome .inner-contain .welcome-btn{margin-top:4.7rem;display: flex;justify-content: center;}
+.section-welcome .inner-contain .welcome-btn .blue-btn{padding: 5.5rem 5.2rem;}
+.section-welcome .inner-contain .welcome-btn .blue-btn p{margin-right: 4rem;line-height: 1;font-size: 3.6rem;font-family: 'og-medium';}
+.section-welcome .inner-contain .welcome-btn .blue-btn svg{width: 10.8rem;height: 100%;}
+
+
+/* section-touch */
+.section-touch{padding: 20rem 0rem 19.4rem 0rem;}
+.touch-container{max-width:1550px;width: 90%;margin: 0 auto;}
+.section-touch .section-heading{color: var(--yellow);font-family: 'og-bold';}
+.section-touch .touch-box{display: grid;grid-template-columns: 1fr 1fr; column-gap: 14.8rem;}
+.section-touch .touch-box .left-box .head40{font-weight: 400;line-height: 1.35;margin-top: 10px;}
+.section-touch .touch-box .left-box form{margin-top:6.5rem}
+.section-touch .touch-box .left-box form input{font-family: 'og-regular';margin-top:5rem;font-size: 2.4rem;line-height: 1;color:#737373;letter-spacing: 0.96px;display: block;width: 100%;border: none;border-bottom: solid 1px #181C22;height: 6rem;padding: 0px 10px;}
+.section-touch .touch-box .left-box form input:first-of-type{margin-top: 0rem;}
+.section-touch .touch-box .left-box form input::placeholder{font-family: 'og-regular';font-size: 2.4rem;line-height: 1;color:#737373;letter-spacing: 0.96px;}
+.section-touch .touch-box .left-box form textarea{height: 9rem; border: none;border-bottom: solid 1px #181C22;font-family: 'og-regular';margin-top:5rem;padding:10px;width: 100%;resize: none;font-size: 2.4rem;line-height: 1;color:#737373;letter-spacing: 0.96px;}
+.section-touch .touch-box .left-box form textarea::placeholder{font-family: 'og-regular';font-size: 2.4rem;line-height: 1;color:#737373;letter-spacing: 0.96px;}
+.section-touch .touch-box .left-box form .blue-btn{margin-top: 6.8rem;padding: 5.5rem;}
+.section-touch .touch-box .left-box form .blue-btn p{font-size: 3.6rem;color:#fff;font-family: 'og-medium';margin-right:4rem;}
+.section-touch .touch-box .left-box form .blue-btn svg{width: 10.8rem;height: auto;}
+.section-touch .touch-box .right-box .contact-box{display: grid;grid-template-columns: auto 1fr;column-gap: 2.5rem;margin-top: 8rem;}
+.section-touch .touch-box .right-box .contact-box:first-of-type{margin-top: 0rem;}
+.section-touch .touch-box .right-box .contact-box .head40{line-height: 1;letter-spacing: 1px;font-family: 'og-bold';} 
+.section-touch .touch-box .right-box .contact-box p{letter-spacing: 0.6px;line-height: 1.6;margin-top: 11px;font-weight: 400;}
+.section-touch .touch-box .right-box .contact-box a{cursor:pointer;font-size:2.4rem;color:var(--black);font-family: 'og-regular';display:block;letter-spacing: 0.6px;line-height: 1.6;margin-top: 11px;font-weight: 400;}
+
 
 
 /* footer */
