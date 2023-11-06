@@ -29,6 +29,12 @@ p,.p24{font-size: 2.4rem;}
 .head40{font-size: 4rem;}
 .head64{font-size: 6.4rem;}
 .section-heading{font-size: 9.6rem;font-family: 'og-bold';}
+.blue-btn{display: flex;align-items:center;justify-content: center; cursor: pointer;background: var(--blue);padding:2.6rem 4.8rem;}
+.blue-btn:hover{background-color: #00ACEE;}
+.blue-btn p{color: #fff;font-family: 'og-medium';margin-right:28px;}
+.white-btn{background-color: #E8E8E8;padding:2.6rem 7.4rem;cursor: pointer;display:flex;justify-content: center;align-items: center;}
+.white-btn:hover{background-color:#c0c0c0;}
+.white-btn p{color: var(--black);line-height: 1;font-family: 'og-medium';}
 
 
 .mb25{margin-bottom: 2.5rem;}
@@ -106,6 +112,7 @@ p,.p24{font-size: 2.4rem;}
 
 /* ------------------------- SERVICES SECTION --------------------------- */
 .light{font-family: 'og-light';}
+.section-services{padding-top: 13rem;}
 .section-services .services-box .head48{font-family: 'og-bold';text-transform: uppercase;}
 .section-services .services-box{text-align: center;}
 .section-services .services-box-img img{margin: 0 auto;}
