@@ -100,8 +100,8 @@ p,.p24{font-size: 2.4rem;}
 .section-courses .courses-box{display: flex;justify-content: space-between;}
 .section-courses .courses-box .left-box{ width: 63.32%;}
 .section-courses .courses-box .left-box .slider-child{display: grid;grid-template-columns: 1fr 1fr;grid-column-gap: 3rem}
-.section-courses .courses-box .left-box  .slick-dots{position: absolute;left: -50px;row-gap: 7rem;top: 50%;display: flex;transform: translate(-50%,-50%);flex-direction: column;}
-.section-courses .courses-box .left-box  .slick-dots button{background: #737373;color: transparent;border-radius: 50%;width: 15px;height: 15px;border: none;}
+.section-courses .courses-box .left-box  .slick-dots{position: absolute;left: -6%;row-gap: 7rem;top: 50%;display: flex;transform: translate(-50%,-50%);flex-direction: column;}
+.section-courses .courses-box .left-box  .slick-dots button{cursor:pointer;background: #737373;color: transparent;border-radius: 50%;width: 15px;height: 15px;border: none;}
 .section-courses .courses-box .left-box  .slick-dots .slick-active button{background-color: var(--yellow);}
 .section-courses .courses-box .left-box .content-box .head40{line-height: 1.2;color: #fff;font-family: 'og-bold';margin-top: 3.4rem;}
 .section-courses .courses-box .right-box{width:33.5%;}
