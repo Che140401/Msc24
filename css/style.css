@@ -307,7 +307,7 @@ p,.p24{font-size: 2.4rem;}
 .section-banner .banner-slider .slider-child .banner-text .head120{color: var(--black);line-height: 1;font-family: 'og-bold';margin-top: 22px;}
 .section-banner .banner-slider .slider-child .banner-accredition{position: absolute;bottom: 3.8rem;right: 7.3rem;}
 .section-banner .banner-slider .slider-child .banner-accredition .accr-text p{line-height: 1;color: #fff;font-family: 'og-bold';}
-.section-banner .banner-slider .slider-child .banner-accredition .accr-images{display: flex;column-gap: 3.5rem;align-items: center;margin-top: 10px;}
+.section-banner .banner-slider .slider-child .banner-accredition .accr-images{display: flex;column-gap: 3.5rem;align-items: flex-end;margin-top: 10px;}
 .banner-slider .slick-dots{position: absolute;bottom: 0;left: 50%;bottom:20px;display: flex;column-gap: 2rem;transform: translateX(-50%);}
 .banner-slider .slick-dots button{height: 20px;width: 20px;border-radius: 50%;color: transparent;background: grey;border:none}
 .banner-slider .slick-dots button:hover{background: #414141;}
@@ -553,8 +553,8 @@ p,.p24{font-size: 2.4rem;}
     background-color: transparent;
 }
 .slick-next,.slick-prev{display: none !important;}
-.section-what-clients-say .prev{background-image:url(../assets/img/prev-arrow.png) ;width: 10.6rem;height: 10.6rem;border: none;background-color: transparent;display: block;margin-bottom: 2.5rem;}
-.section-what-clients-say .next{background-image:url(../assets/img/next-arrow.png) ;bottom: 2%;width: 10.6rem;height: 10.6rem;border: none;background-color: transparent;display: block;}
+.section-what-clients-say .prev{background-image:url(../assets/img/prev-arrow.png) ;width: 10.6rem;height: 10.6rem;border: none;background-color: transparent;display: block;margin-bottom: 2.5rem;background-size: contain;}
+.section-what-clients-say .next{background-image:url(../assets/img/next-arrow.png) ;bottom: 2%;width: 10.6rem;height: 10.6rem;border: none;background-color: transparent;display: block;background-size: contain;}
 .section-what-clients-say .sider-arrow{position: absolute;top: 50%;right: 0;}
 .section-what-clients-say .slider-container{max-width: 1570px;margin: 0 auto;position: relative;width: 100%;}
 .section-what-clients-say .client-video-box{position: relative;}

@@ -1,24 +1,24 @@
 @media screen and (max-width: 1700px) {
-    html{font-size: 55%;}
+    html{font-size: 50%;}
     .nav-container .navBar .navlist{column-gap: 3rem;}
  }
  
  @media screen and (max-width: 1500px) {
-     html{font-size: 50%;}
- }
- 
- @media screen and (max-width: 1300px) {
      html{font-size: 45%;}
  }
  
+ @media screen and (max-width: 1300px) {
+     html{font-size: 40%;}
+ }
+ 
  @media screen and (max-width: 1279px) {
-     html{font-size: 40% ;}
+     html{font-size: 35% ;}
  }
  
  @media screen and (max-width: 1023px) {
-     html{font-size: 35%;}
+     html{font-size: 30%;}
  }
  
  @media screen and (max-width: 769px) {
-     html{font-size: 30%;}
+     html{font-size: 25%;}
  }
