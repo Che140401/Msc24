@@ -1,4 +1,11 @@
 $(document).ready(function () {
+  $(".prev").click(function(){
+    $(".section-what-clients-say .slick-prev").trigger("click")
+  })
+
+  $(".next").click(function(){
+    $(".section-what-clients-say .slick-next").trigger("click")
+  })
 
   $('.banner-slider').slick({
     slidesToShow: 1,
@@ -22,6 +29,15 @@ $(document).ready(function () {
     slidesToScroll: 1,
     arrows: false,
     dots: true
+  });
+
+  $('.box-wrappper-slider').slick({
+    infinite:true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows:true,
+    dots:false,
+    autoplay:true
   });
 
   const scrollContain = document.querySelector(".scroll-images .scroll-contain");
@@ -97,3 +113,4 @@ $(document).ready(function () {
   }
 
 });
+
