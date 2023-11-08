@@ -24,6 +24,7 @@ p,.p24{font-size: 2.4rem;}
 .btn{text-decoration: none;}
 .p32{font-size: 3.2rem;}
 .p36{font-size: 3.6rem;}
+.p38{font-size: 3.8rem;}
 .head120{font-size: 12rem;}
 .head48{font-size: 4.8rem;}
 .head40{font-size: 4rem;}
@@ -202,3 +203,62 @@ p,.p24{font-size: 2.4rem;}
 .footer{display: flex;flex-direction: column;padding: 7.1rem;row-gap: 4rem;justify-content: center;align-items: center;background: var(--black);}
 .footer .social-icons{display: flex;column-gap: 3.6rem;align-items: center;}
 .footer .foot-text p{color: #fff;line-height: 1;}
+
+
+
+/* ------------------------- SECTION WHAY OUR CLIENTS SAY ------------------ */
+.section-what-clients-say{padding: 14.5rem 0;background-color: #E8E8E8;}
+.section-what-clients-say .container-sm{max-width: 1720px;position: relative;margin-bottom: 11.7rem;}
+.section-what-clients-say .section-heading{text-align: center;color: #737373;margin-bottom: 9.5rem;}
+.section-what-clients-say .left-box img{width: 100%;position: relative;z-index: 1;}
+.section-what-clients-say .right-box p{margin-bottom: 4.5rem;letter-spacing: 0.9px;line-height: 1.5;}
+.section-what-clients-say .right-box h3{font-family: 'og-semibold';}
+.section-what-clients-say .right-box{display: inline-block;width: 64%;padding-left: 10rem;vertical-align: top;}
+.section-what-clients-say .left-box{display: inline-block;width: 34.2%;;margin-right: -3px;padding-left: 30px;padding-bottom: 30px;position: relative;z-index: 1;vertical-align: top;}
+
+.section-what-clients-say .left-box:after {
+    content: "";
+    background: var(--yellow);
+    width: calc(100% - 30px);
+    height: calc(100% - 30px);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+
+.box-wrappper{padding: 0 1px}
+
+.sider-arrow{
+    display: inline-block;
+    border: none;
+    background-color: transparent;
+}
+.slick-next,.slick-prev{display: none !important;}
+.section-what-clients-say .prev{background-image:url(../assets/img/prev-arrow.png) ;width: 10.6rem;height: 10.6rem;border: none;background-color: transparent;display: block;margin-bottom: 2.5rem;}
+.section-what-clients-say .next{background-image:url(../assets/img/next-arrow.png) ;bottom: 2%;width: 10.6rem;height: 10.6rem;border: none;background-color: transparent;display: block;}
+.section-what-clients-say .sider-arrow{position: absolute;top: 50%;right: 0;}
+.section-what-clients-say .slider-container{max-width: 1570px;margin: 0 auto;position: relative;width: 100%;}
+.section-what-clients-say .client-video-box{position: relative;}
+.section-what-clients-say .client-video-box img{width: 100%;max-width: 100%;}
+.section-what-clients-say .client-box-wrapper{display: grid;grid-template-columns: 1fr 1fr 1fr 1fr;gap: 3.6rem;}
+.section-what-clients-say .client-box-container{margin: 0 auto;max-width: 1628px;width: 90%;}
+.section-what-clients-say .play-btn{border: none;display: flex;align-items: center;justify-content: center;width: 10.6rem;height: 10.6rem;background-color: var(--white);border-radius: 100%;position: absolute;bottom: 10%;left: 35%;}
+.section-what-clients-say .play-btn span{    display: block;width: 0;height: 0;border-top: 20px solid transparent;border-bottom: 20px solid transparent;border-left: 30px solid var(--blue);}
+
+
+/* ---------------------------- SECTION COUNTDOWN ----------------------- */
+.section-event-countdown{padding-top:19.5rem ;padding-bottom: 18.5rem;}
+.section-event-countdown .logo{margin-bottom: 4rem;}
+.section-event-countdown .left-box .p38{color: var(--white);font-family: 'og-medium';letter-spacing: 0.76px;margin-bottom: 4rem;}
+.section-event-countdown .left-box .btn{font-family: 'og-medium';color: var(--white);display: inline-block;background-color: var(--blue);padding: 4.8rem 5.1rem 4.7rem 5rem;margin-bottom: 4rem;}
+.section-event-countdown .btn svg{margin-left: 4rem;width: 10.8rem;height: 2.7rem;display: inline-block;vertical-align: middle;}
+.section-event-countdown .countdown-box{color: #fff;text-align: center;border: 1px solid var(--yellow);padding: 1.9rem;}
+.section-event-countdown .countdown-box-wrap{    display: flex;align-items: center;gap: 12px;}
+
+/* -------------------- SECTION UPCOMING EVENTS ------------------ */
+.section-upcoming-events .section-heading{color: var(--yellow);text-align: center;}
+.section-upcoming-events .container-sm{margin: 16rem 0;}
+
+
+
