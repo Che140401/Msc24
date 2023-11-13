@@ -1,10 +1,10 @@
 $(document).ready(function () {
   $(".prev").click(function(){
-    $(".section-what-clients-say .slick-prev").trigger("click")
+    $(".section-what-clients-say .slick-prev,.section-gallery .slick-prev").trigger("click")
   })
 
   $(".next").click(function(){
-    $(".section-what-clients-say .slick-next").trigger("click")
+    $(".section-what-clients-say .slick-next,.section-gallery .slick-next").trigger("click")
   })
 
   $('.banner-slider').slick({
@@ -38,6 +38,15 @@ $(document).ready(function () {
     arrows:true,
     dots:false,
     autoplay:true
+  });
+
+  $('.gallery-slider').slick({
+    infinite:false,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows:true,
+    dots:false,
+    autoplay:false
   });
 
   const scrollContain = document.querySelector(".scroll-images .scroll-contain");
@@ -114,3 +123,8 @@ $(document).ready(function () {
 
 });
 
+Fancybox.bind('[data-fancybox="gallery"]', {
+  Thumbs : {
+    type: "modern"
+  }
+});

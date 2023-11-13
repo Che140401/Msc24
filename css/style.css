@@ -36,7 +36,7 @@ p,.p24{font-size: 2.4rem;}
 .white-btn{width:max-content;background-color: #E8E8E8;padding:2.6rem 7.4rem;cursor: pointer;display:flex;justify-content: center;align-items: center;}
 .white-btn:hover{background-color:#c0c0c0;}
 .white-btn p{color: var(--black);line-height: 1;font-family: 'og-medium';}
-
+.fancybox__caption{font-size: 3.3rem;font-family: 'og-medium';letter-spacing: 0.09em;}
 
 .mb25{margin-bottom: 2.5rem;}
 .mb45{margin-bottom: 4.5rem;}
@@ -580,3 +580,54 @@ p,.p24{font-size: 2.4rem;}
 
 
 
+
+
+
+/* ----------------------- ALUMNI PAGE ------------------------------- */
+/* ----------------------- SECTION MAIN BANNER ----------------------- */
+.alumni-page .section-banner .banner-slider .slider-child .banner-text .banner-btns{margin-top: 9rem;}
+.section-alumni-family .container-sm{max-width: 1580px;}
+.section-alumni-family{margin-top: 16rem;margin-bottom: 11.9rem;}
+.section-alumni-family .section-heading{color: #F1C50E;margin-bottom: 3.2rem;}
+.section-alumni-family .left-box{display: inline-block;width: 45.63%;margin-right: -3px;vertical-align: top;}
+.section-alumni-family .right-box{display: inline-block;width: 54.36%;vertical-align: top;padding-left: 12rem;}
+.section-alumni-family .right-box .p32{font-family: 'og-medium';}
+
+.section-contact-us{padding-top: 11.2rem;height: 1479px;}
+.section-contact-us .section-heading{text-align: center;margin-bottom: 3.6rem;}
+.section-contact-us p{width: 90%;text-align: center;margin: 0 auto;font-family: 'og-medium';max-width: 921px;}
+.section-contact-us .btn{border: none;cursor: pointer;background: var(--blue);padding: 2.6rem 4.8rem;color: var(--white);display: inline-block;margin: 0 auto;}
+.section-contact-us .btn svg{width: 54px;margin-left: 5.4rem;}
+.section-contact-us .contact-btn{text-align: center;margin-top: 8.7rem;}
+.section-gallery .llt-container{position: relative;}
+.section-gallery .slider-btn{position: absolute;right: 0;top: 0;}
+.section-gallery{margin-bottom: 16rem;}
+.section-gallery .box-wrapper{display: grid;grid-template-columns: 1fr 1fr 1fr;}
+.section-gallery .section-heading{text-align: center;color: var(--yellow);margin-bottom: 8rem;}
+.section-gallery .prev{background-image: url(../assets/img/blue-prev-arrow.png);    width: 10.6rem;height: 10.6rem;border: none;background-color: transparent;margin-right: 2.5rem;cursor: pointer;}
+.section-gallery .next{background-image: url(../assets/img/blue-next-arrow.png);    width: 10.6rem;height: 10.6rem;border: none;background-color: transparent;cursor: pointer;}
+
+.section-alumni{background-color: #181C22;padding:16rem 0 13.2rem;}
+.section-alumni .section-heading{text-align: center;margin-bottom: 4.5rem;color: var(--yellow);}
+.section-alumni .container-sm{max-width: 1720px;position: relative;}
+.section-alumni .alumni-search-form input{padding: 3.45rem 4.8rem;background-color: #181C22;border: 1px solid var(--white);letter-spacing: 0.48px;color: var(--white);width: 100%;}
+.section-alumni .alumni-search-form input:focus::placeholder{color: var(--yellow);}
+.section-alumni .alumni-search-form input:focus{border: 1px solid var(--yellow);}
+.alumni-search-form input::placeholder{color: var(--white);}
+.alumni-search-form button{padding: 3.6rem 12.8rem;font-family: 'og-semibold';background-color: var(--blue);border: none;color: var(--white);cursor: pointer;}
+.alumni-search-form{display: grid;grid-template-columns: 44.35% 30.65% 25%;gap: 3.5rem;margin-bottom: 4.5rem;}
+.alumni-img img{border-radius: 100%;border: 13px solid var(--white);filter: drop-shadow(0 21px 25px rgba(0, 0, 0, 0.15));margin:0 auto;}
+.alumni-img{margin-bottom: 4.9rem;}
+.alumni-box{background-color: var(--white);text-align: center;}
+.alumni-box .p32{font-family: 'og-semibold';margin-bottom: 2rem;}
+.alumni-box .p24{font-family: 'og-medium';}
+.alumni-box{padding-top: 5.6rem;padding-bottom: 3.1rem;}
+.section-alumni .box-wrapper{display: grid;grid-template-columns: 1fr 1fr 1fr 1fr;gap: 2rem;}
+.alumni-search-form button:hover,.section-contact-us .btn:hover,.section-community .btn:hover{background-color: #00ACEE;}
+.section-community{margin: 16rem 0;}
+.section-community .section-heading{text-align: center;margin-bottom: 4rem;color: var(--yellow);}
+.section-community .p32{font-family: 'og-medium';text-align: center;}
+.section-community .alumni-info{margin-bottom: 14.5rem;}
+.section-community .contact-btn{text-align: center;}
+.section-community .btn{border: none;cursor: pointer;background: var(--blue);padding: 2.6rem 4.8rem;color: var(--white);display: inline-block;margin: 0 auto;font-family: 'og-medium';}
+.section-community .btn svg{display: inline-block;width: 54px;margin-left: 5.7rem;}

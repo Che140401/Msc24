@@ -1,3 +1,8 @@
+@media screen and (max-width:1800px) {
+    .section-gallery .next{width: 9.5rem;height: 9.5rem;background-size: contain;}
+    .section-gallery .prev{width: 9.5rem;height: 9.5rem;background-size: contain;}
+}
+
 @media screen and (max-width: 1700px) {
     html{font-size: 50%;}
     .nav-container .navBar .navlist{column-gap: 3rem;}
@@ -5,6 +10,9 @@
  
  @media screen and (max-width: 1500px) {
      html{font-size: 45%;}
+     .alumni-img img{
+        width: 31rem;
+     }
  }
  
  @media screen and (max-width: 1300px) {
