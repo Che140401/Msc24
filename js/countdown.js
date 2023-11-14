@@ -12,7 +12,7 @@
 	    fieldTime=$(this).data('time').split(':');
 	    var futureDate=new Date(fieldDate[0],fieldDate[1]-1,fieldDate[2],fieldTime[0],fieldTime[1]);
 	    var seconds=futureDate.getTime() / 1000 - currentDate.getTime() / 1000;
-
+		
 	    if(seconds<=0 || isNaN(seconds)){
 	    	this.hide();
 	    	return this;
@@ -40,19 +40,19 @@
 	    html+="<div class='countdown-box time-box hours'>"
 				html+="<h4 class='p36 countdown-value hours-bottom'>"+pad(hours)+"</h4>";
 				// html+="<span>:</span>";
-	    	html+="<p class='countdown-heading hours-top'>Hours</p>";
+	    	html+="<p class='countdown-heading hours-top'>Hrs</p>";
 	    html+="</div>";
 
 	    html+="<div class='countdown-box time-box minutes'>"
 				html+="<h4 class='p36 countdown-value minutes-bottom'>"+pad(minutes)+"</h4>";
 				// html+="<span>:</span>";
-	    	html+="<p class='countdown-heading minutes-top'>Minutes</p>";
+	    	html+="<p class='countdown-heading minutes-top'>Mins</p>";
 	    html+="</div>";
 
 	    html+="<div class='countdown-box time-box seconds'>"
 				html+="<h4 class='p36 countdown-value seconds-bottom'>"+pad(seconds)+"</h4>";
 				// html+="<span>:</span>";
-	    	html+="<p class='countdown-heading seconds-top'>Seconds</p>";
+	    	html+="<p class='countdown-heading seconds-top'>Sec</p>";
 	    html+="</div>";
 
 	    this.html(html);
