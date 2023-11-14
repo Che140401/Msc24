@@ -1,32 +1,106 @@
 @media screen and (max-width:1800px) {
-    .section-gallery .next{width: 9.5rem;height: 9.5rem;background-size: contain;}
-    .section-gallery .prev{width: 9.5rem;height: 9.5rem;background-size: contain;}
+    .section-gallery .next {
+        width: 9.5rem;
+        height: 9.5rem;
+        background-size: contain;
+    }
+
+    .section-gallery .prev {
+        width: 9.5rem;
+        height: 9.5rem;
+        background-size: contain;
+    }
 }
 
 @media screen and (max-width: 1700px) {
-    html{font-size: 50%;}
-    .nav-container .navBar .navlist{column-gap: 3rem;}
- }
- 
- @media screen and (max-width: 1500px) {
-     html{font-size: 45%;}
-     .alumni-img img{
+    html {
+        font-size: 50%;
+    }
+
+    .nav-container .navBar .navlist {
+        column-gap: 3rem;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    html {
+        font-size: 45%;
+    }
+
+    .alumni-img img {
         width: 31rem;
-     }
- }
- 
- @media screen and (max-width: 1300px) {
-     html{font-size: 40%;}
- }
- 
- @media screen and (max-width: 1279px) {
-     html{font-size: 35% ;}
- }
- 
- @media screen and (max-width: 1023px) {
-     html{font-size: 30%;}
- }
- 
- @media screen and (max-width: 769px) {
-     html{font-size: 25%;}
- }
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    html {
+        font-size: 40%;
+    }
+}
+
+@media screen and (max-width: 1279px) {
+    html {
+        font-size: 35%;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    html {
+        font-size: 30%;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    html {
+        font-size: 25%;
+    }
+
+    .alumni-search-form {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .section-alumni .box-wrapper {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .section-alumni-family .left-box,
+    .section-alumni-family .right-box {
+        display: block;
+        width: 100%;
+        padding: 0;
+    }
+
+    .section-alumni-family .left-box {
+        margin-bottom: 5rem;
+    }
+
+    .section-gallery .box-wrapper {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .section-contact-us {
+        height: 700px;
+        background-size: cover;
+        background-position: left;
+    }
+
+    .section-gallery .slider-btn {
+        position: static;
+        text-align: right;
+        margin-bottom: 5rem;
+    }
+
+    .alumni-page .section-banner .banner-slider .slider-child .banner-text .head120 {
+        text-align: center;
+        font-size: 10rem;
+        line-height: 1.1;
+    }
+
+    .alumni-page .section-banner .banner-slider .slider-child .banner-text .p32{
+        line-height: 1.3;
+    }
+
+    .alumni-page  .section-banner .banner-slider .slider-child .banner-text{padding: 20px;}
+    .is-compact .fancybox__footer .fancybox__caption{text-align: center;}
+}
