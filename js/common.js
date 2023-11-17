@@ -1,37 +1,55 @@
 $(document).ready(function () {
-
-
-
-
-  $('.menu-btn').click(function() {
-    $(this).toggleClass('active');
-    $('.navlist').toggleClass('active');
-    var currentOverflow = $('body').css('overflow');
-    if (currentOverflow === 'hidden') {
-      $('body').css('overflow', 'auto');
-    } else {
-      $('body').css('overflow', 'hidden');
+  $(window).scroll(function () {
+    var scroll = $(window).scrollTop();
+    if (scroll >= 100) {
+      //clearHeader, not clearheader - caps H
+      $(".nav-head").addClass("active");
     }
-  })
-
-  $('.navlist a').click(function() {
-    $('.navlist').removeClass('active');
-    $('.menu-btn').removeClass('active');
-    var currentOverflow = $('body').css('overflow');
-    if (currentOverflow === 'hidden') {
-      $('body').css('overflow', 'auto');
-    } else {
-      $('body').css('overflow', 'hidden');
+    else {
+      $(".nav-head").removeClass("active");
     }
-  })
-  
+  });
 
-  $(".prev").click(function(){
-    $(".section-what-clients-say .slick-prev,.section-gallery .slick-prev").trigger("click")
+  if (window.screen.width <= 767) {
+    $('.menu-btn').click(function () {
+      $(this).toggleClass('active');
+      $('.navlist').toggleClass('active');
+      var currentOverflow = $('body').css('overflow');
+      if (currentOverflow === 'hidden') {
+        $('body').css('overflow', 'auto');
+      } else {
+        $('body').css('overflow', 'hidden');
+      }
+    })
+  }
+
+  if (window.screen.width <= 767) {
+    $('.navlist a').click(function () {
+      $('.navlist').removeClass('active');
+      $('.menu-btn').removeClass('active');
+      var currentOverflow = $('body').css('overflow');
+      if (currentOverflow === 'hidden') {
+        $('body').css('overflow', 'auto');
+      } else {
+        $('body').css('overflow', 'hidden');
+      }
+    })
+  }
+
+  $(".prev").click(function () {
+    $(".section-what-clients-say .slick-prev").trigger("click")
   })
 
-  $(".next").click(function(){
-    $(".section-what-clients-say .slick-next,.section-gallery .slick-next").trigger("click")
+  $(".next").click(function () {
+    $(".section-what-clients-say .slick-next").trigger("click")
+  })
+
+  $(".section-gallery .prev").click(function () {
+    $(".section-gallery .slick-prev").trigger("click")
+  })
+
+  $(".section-gallery .next").click(function () {
+    $(".section-gallery .slick-next").trigger("click")
   })
 
   $('.banner-slider').slick({
@@ -39,6 +57,14 @@ $(document).ready(function () {
     slidesToScroll: 1,
     arrows: false,
     dots: true
+  });
+
+  $('.gallery-slider').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: true,
+    dots: true,
+    infinite: false
   });
 
   $(document).on('click', '[data-tab]', function () {
@@ -59,31 +85,31 @@ $(document).ready(function () {
   });
 
   $('.box-wrappper-slider').slick({
-    infinite:true,
+    infinite: true,
     slidesToShow: 1,
     slidesToScroll: 1,
-    arrows:true,
-    dots:false,
-    autoplay:false
+    arrows: true,
+    dots: false,
+    autoplay: false
   });
 
-  $('.gallery-slider').slick({
-    infinite:false,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    arrows:true,
-    dots:false,
-    autoplay:false
-  });
-
-  const scrollContain = document.querySelector(".scroll-images .scroll-contain");
-  const images = scrollContain.querySelectorAll("img");
-
-  for (const image of images) {
-    const copyImage = image.cloneNode(true);
-    scrollContain.appendChild(copyImage);
+  try {
+    const scrollContain = document.querySelector(".scroll-images .scroll-contain");
+    const images = scrollContain.querySelector("img");
+    // Your code that relies on the result
+    console.log(images);
+    for (const image of images) {
+      const copyImage = image.cloneNode(true);
+      scrollContain.appendChild(copyImage);
+    }
+  } catch (error) {
+    // Handle the error
+    // Shows error in console
+    console.error('An error occurred:', error.message);
   }
-
+  // Code here will continue to execute even if there was an error in the try block
+  // console.log('Execution continues...');
+  
   $(function ($, win) {
     $.fn.inViewport = function (cb) {
       return this.each(function (i, el) {
@@ -94,10 +120,10 @@ $(document).ready(function () {
             b = r.bottom;
           return cb.call(el, Math.max(0, t > 0 ? H - t : (b < H ? b : H)));
         }
-        
+
         visPx();
         $(win).on("resize scroll", visPx);
-        
+
       });
     };
   }(jQuery, window));
@@ -112,36 +138,36 @@ $(document).ready(function () {
           duration: 1000,
           step: function (now) {
             $(this).text(Math.ceil(now));
-            
+
           }
         });
-        
+
       }
-      
+
     });
   });
 
 
-  $(function(){
+  $(function () {
     var $elems = $('.circle-chart__circle');
     var winheight = $(window).height();
     var fullheight = $(document).height();
-        $(window).scroll(function(){
-          animate_elems();
-          onScroll();
-        });
+    $(window).scroll(function () {
+      animate_elems();
+      // onScroll();
+    });
 
     function animate_elems() {
       wintop = $(window).scrollTop();
-      $elems.each(function(){
+      $elems.each(function () {
         $elm = $(this);
-        if($elm.hasClass('active')) { return true; }
-        topcoords = $elm.offset().top; 
-        if(wintop > (topcoords - (winheight))) {
+        if ($elm.hasClass('active')) { return true; }
+        topcoords = $elm.offset().top;
+        if (wintop > (topcoords - (winheight))) {
           $elm.addClass('active');
         }
       });
-    } 
+    }
   });
 
 
@@ -157,7 +183,7 @@ $(document).ready(function () {
   });
 
   $(document).on("click", ".register-now", function (e) {
-    $(".left-enq-form").addClass("active");
+    $(".left-enq-form").toggleClass("active");
     e.stopPropagation();
   });
 
@@ -183,8 +209,14 @@ $(document).ready(function () {
 
 });
 
+Fancybox.bind('[data-fancybox="client-video"]', {
+  Thumbs: {
+    type: "modern"
+  }
+});
+
 Fancybox.bind('[data-fancybox="gallery"]', {
-  Thumbs : {
+  Thumbs: {
     type: "modern"
   }
 });

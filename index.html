@@ -5,11 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/slick.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/media.css">
-    <link rel="stylesheet" href="./css/slick.css">
-    <link rel="stylesheet" type="text/css"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./css/aos.css">
+    <link rel="stylesheet" href="./css/fancybox.css">
+    <!-- <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"> -->
     <!-- Google -->
     <meta name="keywords" content=" ">
     <meta name="description" content=" ">
@@ -25,7 +26,7 @@
         <div class="nav-container">
             <nav class="navBar">
                 <div class="msc-logo">
-                    <img src="./assets/img/msc-logo2.webp" alt="">
+                    <a href="index.html"><img src="./assets/img/msc-logo2.webp" alt=""></a>
                 </div>
                 <div class="navlist">
                     <a href="#">About MSC</a>
@@ -35,22 +36,23 @@
                     <a href="#">Solutions</a>
                     <a href="#">Events</a>
                     <a href="#">Insights</a>
-                    <a href="#">Alumni</a>
+                    <a href="alumni.html">Alumni</a>
                     <a href="#">Contact</a>
                 </div>
                 <div class="menu-btn"></div>
         </div>
         </nav>
     </header>
-    <main>
+    <main style="overflow: hidden;">
         <!-- section1 -->
         <section class="section-banner">
             <div class="banner-slider">
-                <div class="slider-child child1">
-                    <div class="banner-text">
-                        <p class="p32">Explore the Power of</p>
-                        <h1 class="head120">MINDFULNESS</h1>
-                        <p class="p32">Learn Focus, Concentration, Calm and Clarity for Enhanced Performance, Balance
+                <div class="slider-child" style="background-image: url('assets/img/banner-1.webp');">
+                    <div class="banner-text" data-aos="fade-up">
+                        <p class="p32" data-aos="fade">Explore the Power of</p>
+                        <h1 class="head120" data-aos="fade">MINDFULNESS</h1>
+                        <p class="p32" data-aos="fade">Learn Focus, Concentration, Calm and Clarity for Enhanced
+                            Performance, Balance
                             and
                             Wellbeing</p>
                         <div class="banner-btns">
@@ -83,7 +85,7 @@
 
                     </div>
                 </div>
-                <div class="slider-child child2">
+                <div class="slider-child" style="background-image: url('assets/img/banner-2.webp');">
                     <div class="banner-text">
                         <p class="p32">Supercharge Your Growth with</p>
                         <h1 class="head120">Emotional Intelligence</h1>
@@ -119,7 +121,7 @@
                     </div>
                 </div>
 
-                <div class="slider-child child3">
+                <div class="slider-child" style="background-image: url('assets/img/banner-3.webp');">
                     <div class="banner-text">
                         <p class="p32">Unlock Your Brain's Potential</p>
                         <h1 class="head120">Neuroscience</h1>
@@ -183,7 +185,7 @@
             </ul>
             <div class="left-enq-form">
                 <div class="inner-form">
-                    <button class="close-enq"><i class="fa fa-times"></i></button>
+                    <button class="close-enq">X</i></button>
                     <h2 class="form-title"> Contact Form !</h2>
                     <form action="">
                         <div class="form-box">
@@ -199,7 +201,7 @@
                             <textarea placeholder="Message"></textarea>
                         </div>
                         <div class="form-box text-center">
-                            <button class="btn">Submit</button>
+                            <button class="btn" type="button">Submit</button>
                         </div>
                     </form>
                 </div>
@@ -226,14 +228,15 @@
             <div class="llt-container">
                 <div class="inner-contain">
                     <div class="llt-text">
-                        <h2><span>Learn, Lead</span> and <span>Teach</span></h2>
-                        <p class="p32">Understand Neuroscientific approach to enhance cognitive flexibility for Improved
+                        <h2 data-aos="fade"><span>Learn, Lead</span> and <span>Teach</span></h2>
+                        <p class="p32" data-aos="fade">Understand Neuroscientific approach to enhance cognitive
+                            flexibility for Improved
                             <span>Interpersonal relations</span> and <span>problem-solving, Purpose building,
                                 Culture</span> and <span>Wellbeing.</span>
                         </p>
                     </div>
                     <div class="llt-grid">
-                        <div class="content-box">
+                        <div class="content-box" data-aos="fade-up" data-aos-offset="100">
                             <div class="content-img">
                                 <img src="./assets/img/learn.webp" alt="learn">
                             </div>
@@ -245,7 +248,7 @@
                                     embark on a journey of self-discovery and personal growth.</p>
                             </div>
                         </div>
-                        <div class="content-box">
+                        <div class="content-box" data-aos="fade-up" data-aos-offset="200">
                             <div class="content-img">
                                 <img src="./assets/img/lead.webp" alt="lead">
                             </div>
@@ -257,7 +260,7 @@
                                     teams.</p>
                             </div>
                         </div>
-                        <div class="content-box">
+                        <div class="content-box" data-aos="fade-up" data-aos-offset="300">
                             <div class="content-img">
                                 <img src="./assets/img/teach.webp" alt="teach">
                             </div>
@@ -278,7 +281,7 @@
         <section class="section-courses">
             <div class="llt-container">
                 <div class="courses-box">
-                    <div class="left-box">
+                    <div class="left-box" data-aos="fade-up">
                         <div class="slider-child">
                             <div class="content-box">
                                 <div class="content-img">
@@ -345,8 +348,8 @@
                     </div>
                     <div class="right-box">
                         <div class="rbox-head">
-                            <h2><span>Courses</span> & <span>Programs</span></h2>
-                            <div class="plan-box">
+                            <h2 data-aos="fade"><span>Courses</span> & <span>Programs</span></h2>
+                            <div class="plan-box" data-aos="fade">
                                 <div class="plan-head">
                                     <h4 class="head40">For Individuals</h4>
                                 </div>
@@ -358,7 +361,7 @@
                                     <a href="">Learn More </a>
                                 </div>
                             </div>
-                            <div class="plan-box">
+                            <div class="plan-box" data-aos="fade">
                                 <div class="plan-head">
                                     <h4 class="head40">For Organizations</h4>
                                 </div>
@@ -378,8 +381,8 @@
 
         <section class="section section-services mb160">
             <div class="container-md">
-                <div class="services-box-wrap">
-                    <div class="services-box">
+                <div class="services-box-wrap" data-aos="fade-up">
+                    <div class="services-box" data-aos="fade-up" data-aos-offset="100">
                         <div class="mb50 services-box-img">
                             <img src="assets/img/services-1.webp" alt="">
                         </div>
@@ -389,7 +392,7 @@
                                 life.</p>
                         </div>
                     </div>
-                    <div class="services-box">
+                    <div class="services-box" data-aos="fade-up" data-aos-offset="100">
                         <div class="mb50 services-box-img">
                             <img src="assets/img/services-2.webp" alt="">
                         </div>
@@ -399,7 +402,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="services-box">
+                    <div class="services-box" data-aos="fade-up" data-aos-offset="200">
                         <div class="mb50 services-box-img">
                             <img src="assets/img/services-3.webp" alt="">
                         </div>
@@ -409,7 +412,7 @@
                                 performance.</p>
                         </div>
                     </div>
-                    <div class="services-box">
+                    <div class="services-box" data-aos="fade-up" data-aos-offset="200">
                         <div class="mb50 services-box-img">
                             <img src="assets/img/services-4.webp" alt="">
                         </div>
@@ -419,7 +422,7 @@
                                 work and life.</p>
                         </div>
                     </div>
-                    <div class="services-box">
+                    <div class="services-box" data-aos="fade-up" data-aos-offset="300">
                         <div class="mb50 services-box-img">
                             <img src="assets/img/services-5.webp" alt="">
                         </div>
@@ -429,7 +432,7 @@
                                 resilience.</p>
                         </div>
                     </div>
-                    <div class="services-box">
+                    <div class="services-box" data-aos="fade-up" data-aos-offset="300">
                         <div class="mb50 services-box-img">
                             <img src="assets/img/services-6.webp" alt="">
                         </div>
@@ -439,7 +442,7 @@
                                 transformation.</p>
                         </div>
                     </div>
-                    <div class="services-box">
+                    <div class="services-box" data-aos="fade-up" data-aos-offset="400">
                         <div class="mb50 services-box-img">
                             <img src="assets/img/services-7.webp" alt="">
                         </div>
@@ -449,7 +452,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="services-box">
+                    <div class="services-box" data-aos="fade-up" data-aos-offset="400">
                         <div class="mb50 services-box-img">
                             <img src="assets/img/services-8.webp" alt="">
                         </div>
@@ -465,12 +468,12 @@
         <section class="section section-program"
             style="background-image: url(assets/img/section-program-bg.webp);background-repeat: no-repeat;background-size: cover;background-position: center;">
             <div class="container-sm">
-                <div class="left-box">
+                <div class="left-box" data-aos="fade-right" data-aos-easing="ease-in-out-quart">
                     <h2 class="section-heading">
                         <span class="light">Maximize Your</span> Personal <span class="light">and</span> Professional
                         Growth
                     </h2>
-                    <a href="" class="btn p36">
+                    <a href="javascript::" class="btn p36" data-aos="fade-up" data-aos-easing="ease-in-out-quart">
                         <span class="txt">Take the program </span>
                         <svg viewBox="0 0 56 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
@@ -484,7 +487,7 @@
 
         <section class="section section-clients">
             <div class="container-xs">
-                <div class="client-box-wrap">
+                <div class="client-box-wrap" data-aos="fade" data-aos-easing="linear">
                     <div class="clients-box">
                         <div class="clients-box-img mb50">
                             <img src="assets/img/satisfied-clients.webp" alt="">
@@ -518,10 +521,10 @@
 
         <section class="section section-founder">
             <div class="container-sm">
-                <div class="left-box">
+                <div class="left-box" data-aos="fade-right" data-aos-easing="ease-in-out-quart">
                     <img src="assets/img/manish-behl.webp" alt="">
                 </div>
-                <div class="right-box">
+                <div class="right-box" data-aos="fade-left" data-aos-easing="ease-in-out-quart">
                     <h4 class="head40 mb45">Founder - Mindful Science Centre</h4>
                     <h2 class="section-heading mb45">Manish Behl</h2>
                     <p class="p32 mb45">A regular mindfulness training helps in building your ability to pay better
@@ -540,9 +543,9 @@
 
         <section class="section section-download-ebook">
             <div class="container-sm">
-                <h2 class="section-heading">Elevate Your Learning</h2>
+                <h2 class="section-heading" data-aos="fade" data-aos-easing="ease-in-out">Elevate Your Learning</h2>
                 <h3 class="p32">Subscribe to Our E-Book!</h3>
-                <div>
+                <div data-aos="fade-up" data-aos-delay="10">
                     <form action="" class="form-download-ebook">
                         <div class="input-box">
                             <input type="text" class="p24" id="name" placeholder="Enter Your Name">
@@ -569,13 +572,14 @@
         </section>
 
         <section class="section section-why-msc"
-            style="background-image: url(assets/img/why-msc.webp);background-repeat: no-repeat;background-size: cover;background-position: center;">
+            style="background-image: url(assets/img/why-msc.webp);background-repeat: no-repeat;background-size: cover;background-position:center;">
             <div class="container-sm">
-                <div class="left-box">
-                    <h2 class="section-heading">
+                <div class="left-box" data-aos="fade-right" data-aos-easing="ease">
+                    <h2 class="section-heading" data-aos="fade">
                         <span class="light">Why</span> MSC?
                     </h2>
-                    <p class="p32">Mindfulness is the art of being in the moment, in the here and now. To be mindful is
+                    <p class="p32" data-aos="fade" data-aos-easing="linear">Mindfulness is the art of being in the
+                        moment, in the here and now. To be mindful is
                         to be fully aware of the present experience. By maintaining a moment-by-moment awareness of our
                         thoughts, feelings, bodily sensations, and surrounding environment, through a gentle, nurturing
                         lens we canmake Mindfulness a way of our life.</p>
@@ -585,7 +589,7 @@
 
         <section class="section-enjoy">
             <div class="text-box">
-                <h2><span>Enjoy</span> your now</h2>
+                <h2 data-aos="fade"><span>Enjoy</span> your now</h2>
                 <h4 class="head48">Take a break at this very moment to center yourself and feel refreshed.</h4>
                 <div class="audio-box">
                     <!-- <audio controls>
@@ -628,11 +632,11 @@
                 </div>
                 <div class="tab-container">
                     <div class="tab" id="podcast-tab">
-                        <div class="left-box">
+                        <div class="left-box" data-aos="fade-up" data-aos-offset="0">
                             <h3><span>Cultivating
                                     Mindful Living</span>
                                 The Mindful Path</h3>
-                            <a href="#" class="blue-btn">
+                            <a href="javascript::" class="blue-btn">
                                 <p>Explore</p>
                                 <svg width="56" height="16" viewBox="0 0 56 16" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
@@ -644,7 +648,7 @@
                         </div>
                         <div class="right-box">
 
-                            <div class="content-box">
+                            <div class="content-box" data-aos="fade-up" data-aos-offset="100">
                                 <div class="content-img">
                                     <img src="./assets/img/blogs-2.webp" alt="">
                                 </div>
@@ -668,7 +672,7 @@
                                 </div>
                             </div>
 
-                            <div class="content-box">
+                            <div class="content-box" data-aos="fade-up" data-aos-offset="200">
                                 <div class="content-img">
                                     <img src="./assets/img/blogs-1.webp" alt="">
                                 </div>
@@ -696,11 +700,11 @@
                     </div>
 
                     <div class="tab active" id="blogs-tab">
-                        <div class="left-box">
+                        <div class="left-box" data-aos="fade-up" data-aos-offset="0">
                             <h3><span>Cultivating
                                     Mindful Living</span>
                                 The Mindful Path</h3>
-                            <a href="#" class="blue-btn">
+                            <a href="javascript::" class="blue-btn">
                                 <p>Explore</p>
                                 <svg width="56" height="16" viewBox="0 0 56 16" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
@@ -711,7 +715,7 @@
                             </a>
                         </div>
                         <div class="right-box">
-                            <div class="content-box">
+                            <div class="content-box" data-aos="fade-up" data-aos-offset="100">
                                 <div class="content-img">
                                     <img src="./assets/img/blogs-1.webp" alt="">
                                 </div>
@@ -721,7 +725,7 @@
                                 </div>
                                 <div class="content-text">
                                     <p>Why EQ takes precedence over IQ in today’s world Article Written by Manish Behl
-                                        <a class="read-more" href="#">
+                                        <a class="read-more" href="javascript::">
                                             Read More
                                             <svg width="56" height="16" viewBox="0 0 56 16" fill="none"
                                                 xmlns="http://www.w3.org/2000/svg">
@@ -735,7 +739,7 @@
 
 
                             </div>
-                            <div class="content-box">
+                            <div class="content-box" data-aos="fade-up" data-aos-offset="100">
                                 <div class="content-img">
                                     <img src="./assets/img/blogs-2.webp" alt="">
                                 </div>
@@ -746,7 +750,7 @@
                                 <div class="content-text">
                                     <p>Have you ever felt sad or low for a few days, and someone asked you why you were
                                         depressed?
-                                        <a class="read-more" href="#">
+                                        <a class="read-more" href="javascript::">
                                             Read More
                                             <svg width="56" height="16" viewBox="0 0 56 16" fill="none"
                                                 xmlns="http://www.w3.org/2000/svg">
@@ -771,12 +775,12 @@
                         <img src="./assets/img/sec-improve.webp" alt="improve">
                     </div>
                     <div class="right-box">
-                        <h2>Improve your
+                        <h2 data-aos="fade">Improve your
                             <span>Physical, Mental,
                                 Emotional,</span> and
                             <span>Social Well-being</span>
                         </h2>
-                        <a href="#" class="blue-btn">
+                        <a href="javascript::" class="blue-btn">
                             <p class="p36">Start your test now</p>
                             <svg width="56" height="16" viewBox="0 0 56 16" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -795,28 +799,63 @@
             <div class="loader-container">
                 <div class="inner-contain">
                     <div class="loader-box">
-                        <div class="circlechart" data-percentage="15"><svg class="circle-chart" viewBox="0 0 33.83098862 33.83098862" xmlns="http://www.w3.org/2000/svg"><circle class="circle-chart__background" cx="16.9" cy="16.9" r="15.9"></circle><circle class="circle-chart__circle success-stroke" stroke-dasharray="15,100" cx="16.9" cy="16.9" r="15.9"></circle><g class="circle-chart__info">   <text class="circle-chart__percent counter" x="13" y="17.9">15</text><text class="circle-chart__percent" x="22" y="18">%</text></g></svg></div>
+                        <div class="circlechart" data-percentage="15"><svg class="circle-chart"
+                                viewBox="0 0 33.83098862 33.83098862" xmlns="http://www.w3.org/2000/svg">
+                                <circle class="circle-chart__background" cx="16.9" cy="16.9" r="15.9"></circle>
+                                <circle class="circle-chart__circle success-stroke" stroke-dasharray="15,100" cx="16.9"
+                                    cy="16.9" r="15.9"></circle>
+                                <g class="circle-chart__info"> <text class="circle-chart__percent counter" x="13"
+                                        y="17.9">15</text><text class="circle-chart__percent" x="22" y="18">%</text></g>
+                            </svg></div>
                         <!-- <div class="load-circle">65</div> -->
                         <p class="loader-text p32">Higher Employee
                             Engagement</p>
                     </div>
                     <div class="loader-box">
-                        <div class="circlechart" data-percentage="25"><svg class="circle-chart" viewBox="0 0 33.83098862 33.83098862" xmlns="http://www.w3.org/2000/svg"><circle class="circle-chart__background" cx="16.9" cy="16.9" r="15.9"></circle><circle class="circle-chart__circle success-stroke" stroke-dasharray="25,100" cx="16.9" cy="16.9" r="15.9"></circle><g class="circle-chart__info">   <text class="circle-chart__percent counter" x="13" y="17.9">25</text><text class="circle-chart__percent" x="23" y="18">%</text></g></svg></div>
+                        <div class="circlechart" data-percentage="25"><svg class="circle-chart"
+                                viewBox="0 0 33.83098862 33.83098862" xmlns="http://www.w3.org/2000/svg">
+                                <circle class="circle-chart__background" cx="16.9" cy="16.9" r="15.9"></circle>
+                                <circle class="circle-chart__circle success-stroke" stroke-dasharray="25,100" cx="16.9"
+                                    cy="16.9" r="15.9"></circle>
+                                <g class="circle-chart__info"> <text class="circle-chart__percent counter" x="13"
+                                        y="17.9">25</text><text class="circle-chart__percent" x="23" y="18">%</text></g>
+                            </svg></div>
                         <p class="loader-text p32">Improved
                             Leadership Skills</p>
                     </div>
                     <div class="loader-box">
-                        <div class="circlechart" data-percentage="35"><svg class="circle-chart" viewBox="0 0 33.83098862 33.83098862" xmlns="http://www.w3.org/2000/svg"><circle class="circle-chart__background" cx="16.9" cy="16.9" r="15.9"></circle><circle class="circle-chart__circle success-stroke" stroke-dasharray="35,100" cx="16.9" cy="16.9" r="15.9"></circle><g class="circle-chart__info">   <text class="circle-chart__percent counter" x="13" y="17.9">35</text><text class="circle-chart__percent" x="23" y="18">%</text></g></svg></div>
+                        <div class="circlechart" data-percentage="35"><svg class="circle-chart"
+                                viewBox="0 0 33.83098862 33.83098862" xmlns="http://www.w3.org/2000/svg">
+                                <circle class="circle-chart__background" cx="16.9" cy="16.9" r="15.9"></circle>
+                                <circle class="circle-chart__circle success-stroke" stroke-dasharray="35,100" cx="16.9"
+                                    cy="16.9" r="15.9"></circle>
+                                <g class="circle-chart__info"> <text class="circle-chart__percent counter" x="13"
+                                        y="17.9">35</text><text class="circle-chart__percent" x="23" y="18">%</text></g>
+                            </svg></div>
                         <p class="loader-text p32">Decrease in Work
                             Related Stress</p>
                     </div>
                     <div class="loader-box">
-                        <div class="circlechart" data-percentage="50"><svg class="circle-chart" viewBox="0 0 33.83098862 33.83098862" xmlns="http://www.w3.org/2000/svg"><circle class="circle-chart__background" cx="16.9" cy="16.9" r="15.9"></circle><circle class="circle-chart__circle success-stroke" stroke-dasharray="50,100" cx="16.9" cy="16.9" r="15.9"></circle><g class="circle-chart__info">   <text class="circle-chart__percent counter" x="13" y="17.9">50</text><text class="circle-chart__percent" x="23" y="18">%</text></g></svg></div>
+                        <div class="circlechart" data-percentage="50"><svg class="circle-chart"
+                                viewBox="0 0 33.83098862 33.83098862" xmlns="http://www.w3.org/2000/svg">
+                                <circle class="circle-chart__background" cx="16.9" cy="16.9" r="15.9"></circle>
+                                <circle class="circle-chart__circle success-stroke" stroke-dasharray="50,100" cx="16.9"
+                                    cy="16.9" r="15.9"></circle>
+                                <g class="circle-chart__info"> <text class="circle-chart__percent counter" x="13"
+                                        y="17.9">50</text><text class="circle-chart__percent" x="23" y="18">%</text></g>
+                            </svg></div>
                         <p class="loader-text p32">Improving Memory
                             and Focus</p>
                     </div>
                     <div class="loader-box">
-                        <div class="circlechart" data-percentage="60"><svg class="circle-chart" viewBox="0 0 33.83098862 33.83098862" xmlns="http://www.w3.org/2000/svg"><circle class="circle-chart__background" cx="16.9" cy="16.9" r="15.9"></circle><circle class="circle-chart__circle success-stroke" stroke-dasharray="60,100" cx="16.9" cy="16.9" r="15.9"></circle><g class="circle-chart__info">   <text class="circle-chart__percent counter" x="13" y="17.9">60</text><text class="circle-chart__percent" x="23" y="18">%</text></g></svg></div>
+                        <div class="circlechart" data-percentage="60"><svg class="circle-chart"
+                                viewBox="0 0 33.83098862 33.83098862" xmlns="http://www.w3.org/2000/svg">
+                                <circle class="circle-chart__background" cx="16.9" cy="16.9" r="15.9"></circle>
+                                <circle class="circle-chart__circle success-stroke" stroke-dasharray="60,100" cx="16.9"
+                                    cy="16.9" r="15.9"></circle>
+                                <g class="circle-chart__info"> <text class="circle-chart__percent counter" x="13"
+                                        y="17.9">60</text><text class="circle-chart__percent" x="23" y="18">%</text></g>
+                            </svg></div>
                         <p class="loader-text p32">Boosting
                             Energy Levels</p>
                     </div>
@@ -825,17 +864,17 @@
         </section>
 
         <section class="section section-what-clients-say">
-            <h2 class="section-heading">
+            <h2 class="section-heading" data-aos="fade">
                 <span class="light">What Our</span> Clients Say
             </h2>
             <div class="container-sm">
                 <div class="slider-container">
                     <div class="box-wrappper-slider">
                         <div class="box-wrappper">
-                            <div class="left-box">
+                            <div class="left-box" data-aos="fade-right">
                                 <img src="assets/img/client-img.webp" alt="">
                             </div>
-                            <div class="right-box">
+                            <div class="right-box" data-aos="fade-left">
                                 <p class="p36">“This Program has given me purpose and identity! The program helped shape
                                     my complete understanding of Mindfulness as I was completely new to it. This course
                                     has given me an identity and certification as a Trainer.”</p>
@@ -843,10 +882,10 @@
                             </div>
                         </div>
                         <div class="box-wrappper">
-                            <div class="left-box">
+                            <div class="left-box" data-aos="fade-right">
                                 <img src="assets/img/client-img.webp" alt="">
                             </div>
-                            <div class="right-box">
+                            <div class="right-box" data-aos="fade-left">
                                 <p class="p36">“This Program has given me purpose and identity! The program helped shape
                                     my complete understanding of Mindfulness as I was completely new to it. This course
                                     has given me an identity and certification as a Trainer.”</p>
@@ -854,10 +893,10 @@
                             </div>
                         </div>
                         <div class="box-wrappper">
-                            <div class="left-box">
+                            <div class="left-box" data-aos="fade-right">
                                 <img src="assets/img/client-img.webp" alt="">
                             </div>
-                            <div class="right-box">
+                            <div class="right-box" data-aos="fade-left">
                                 <p class="p36">“This Program has given me purpose and identity! The program helped shape
                                     my complete understanding of Mindfulness as I was completely new to it. This course
                                     has given me an identity and certification as a Trainer.”</p>
@@ -875,28 +914,36 @@
             <div class="client-box-container">
                 <div class="client-box-wrapper">
                     <div class="client-video-box">
-                        <img src="assets/img/client-video-thumb-1.webp" alt="">
-                        <button class="play-btn">
-                            <img src="./assets/img/play-btn.webp" alt="">
-                        </button>
+                        <a href="assets/img/client-video-thumb-1.webp" data-fancybox="client-video">
+                            <img src="assets/img/client-video-thumb-1.webp" alt="">
+                            <button class="play-btn">
+                                <img src="./assets/img/play-btn.webp" alt="">
+                            </button>
+                        </a>
                     </div>
-                    <div class="client-video-box">
-                        <img src="assets/img/client-video-thumb-2.webp" alt="">
-                        <button class="play-btn">
-                            <img src="./assets/img/play-btn.webp" alt="">
-                        </button>
+                    <div class="client-video-box" data-aos="fade-up" data-aos-delay="100">
+                        <a href="assets/img/client-video-thumb-2.webp" data-fancybox="client-video"><img
+                                src="assets/img/client-video-thumb-2.webp" alt="">
+                            <button class="play-btn">
+                                <img src="./assets/img/play-btn.webp" alt="">
+                            </button>
+                        </a>
                     </div>
-                    <div class="client-video-box">
-                        <img src="assets/img/client-video-thumb-3.webp" alt="">
-                        <button class="play-btn">
-                            <img src="./assets/img/play-btn.webp" alt="">
-                        </button>
+                    <div class="client-video-box" data-aos="fade-up" data-aos-delay="200">
+                        <a href="assets/img/client-video-thumb-3.webp" data-fancybox="client-video"><img
+                                src="assets/img/client-video-thumb-3.webp" alt="">
+                            <button class="play-btn">
+                                <img src="./assets/img/play-btn.webp" alt="">
+                            </button>
+                        </a>
                     </div>
-                    <div class="client-video-box">
-                        <img src="assets/img/client-video-thumb-4.webp" alt="">
-                        <button class="play-btn">
-                            <img src="./assets/img/play-btn.webp" alt="">
-                        </button>
+                    <div class="client-video-box" data-aos="fade-up" data-aos-delay="300">
+                        <a href="assets/img/client-video-thumb-4.webp" data-fancybox="client-video"><img
+                                src="assets/img/client-video-thumb-4.webp" alt="">
+                            <button class="play-btn">
+                                <img src="./assets/img/play-btn.webp" alt="">
+                            </button>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -906,7 +953,7 @@
         <section class="section section-event-countdown"
             style="background-image: url(assets/img/section-event-countdown-bg.webp);background-size: cover;">
             <div class="container-sm">
-                <div class="left-box">
+                <div class="left-box" data-aos="fade">
                     <div class="logo">
                         <img src="assets/img/MSC-Summit-Logo.webp" alt="">
                     </div>
@@ -944,9 +991,9 @@
 
         <section class="section-upcoming">
             <div class="upcoming-container">
-                <h3>Upcoming <span>Events</span></h3>
+                <h3 data-aos="fade">Upcoming <span>Events</span></h3>
                 <div class="events-grid">
-                    <div class="content-box">
+                    <div class="content-box" data-aos="fade-up" data-aos-delay="100">
                         <div class="img-box">
                             <img src="./assets/img/upcoming-1.webp" alt="">
                         </div>
@@ -959,8 +1006,8 @@
                             <p class="content-time">2 pm - 3 pm</p>
                         </div>
                         <div class="read-more">
-                            <a class="blue-btn" href="#">
-                                <p>Take the program</p>
+                            <a class="blue-btn" href="javascript::">
+                                <p>Read more</p>
                                 <svg width="56" height="16" viewBox="0 0 56 16" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path
@@ -970,8 +1017,7 @@
                             </a>
                         </div>
                     </div>
-
-                    <div class="content-box">
+                    <div class="content-box" data-aos="fade-up" data-aos-delay="200">
                         <div class="img-box">
                             <img src="./assets/img/upcoming-2.webp" alt="">
                         </div>
@@ -984,8 +1030,8 @@
                             <p class="content-time">2 pm - 3 pm</p>
                         </div>
                         <div class="read-more">
-                            <a class="blue-btn" href="#">
-                                <p>Take the program</p>
+                            <a class="blue-btn" href="javascript::">
+                                <p>Read more</p>
                                 <svg width="56" height="16" viewBox="0 0 56 16" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path
@@ -995,8 +1041,7 @@
                             </a>
                         </div>
                     </div>
-
-                    <div class="content-box">
+                    <div class="content-box" data-aos="fade-up" data-aos-delay="300">
                         <div class="img-box">
                             <img src="./assets/img/upcoming-3.webp" alt="">
                         </div>
@@ -1009,7 +1054,7 @@
                             <p class="content-time">2 pm - 3 pm</p>
                         </div>
                         <div class="read-more">
-                            <a class="blue-btn" href="#">
+                            <a class="blue-btn" href="javascript::">
                                 <p>Read more</p>
                                 <svg width="56" height="16" viewBox="0 0 56 16" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
@@ -1028,22 +1073,27 @@
         <section class="section-welcome">
             <div class="welcome-container">
                 <div class="inner-contain">
-                    <h2>Welcome</h2>
-                    <h4 class="head48">Start your New Life today</h4>
-                    <p class="p36">Mindful Science Centre offers evidence-based mindfulness programs for personal and
-                        professional growth. It helps people develop mindfulness as a way of life, by teaching them how
-                        to be fully aware of the present moment, with a gentle and nurturing attitude.Join Mindful
-                        Science Centre today and discover the power of mindfulness!</p>
-                    <div class="welcome-btn">
-                        <a class="blue-btn" href="#">
-                            <p>Take the program</p>
-                            <svg width="56" height="16" viewBox="0 0 56 16" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M1 7H0V9H1V7ZM55.7071 8.70711C56.0976 8.31658 56.0976 7.68342 55.7071 7.29289L49.3432 0.928932C48.9526 0.538408 48.3195 0.538408 47.9289 0.928932C47.5384 1.31946 47.5384 1.95262 47.9289 2.34315L53.5858 8L47.9289 13.6569C47.5384 14.0474 47.5384 14.6805 47.9289 15.0711C48.3195 15.4616 48.9526 15.4616 49.3432 15.0711L55.7071 8.70711ZM1 9H55V7H1V9Z"
-                                    fill="white" />
-                            </svg>
-                        </a>
+                    <h2 data-aos="fade">Welcome</h2>
+                    <div data-aos="fade-up" data-aos-easing="linear">
+                        <h4 class="head48" data-aos="fade">Start your New Life today</h4>
+                        <p class="p36">Mindful Science Centre offers evidence-based mindfulness
+                            programs
+                            for personal and
+                            professional growth. It helps people develop mindfulness as a way of life, by teaching them
+                            how
+                            to be fully aware of the present moment, with a gentle and nurturing attitude.Join Mindful
+                            Science Centre today and discover the power of mindfulness!</p>
+                        <div class="welcome-btn">
+                            <a class="blue-btn" href="javascript::">
+                                <p>Take the program</p>
+                                <svg width="56" height="16" viewBox="0 0 56 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M1 7H0V9H1V7ZM55.7071 8.70711C56.0976 8.31658 56.0976 7.68342 55.7071 7.29289L49.3432 0.928932C48.9526 0.538408 48.3195 0.538408 47.9289 0.928932C47.5384 1.31946 47.5384 1.95262 47.9289 2.34315L53.5858 8L47.9289 13.6569C47.5384 14.0474 47.5384 14.6805 47.9289 15.0711C48.3195 15.4616 48.9526 15.4616 49.3432 15.0711L55.7071 8.70711ZM1 9H55V7H1V9Z"
+                                        fill="white" />
+                                </svg>
+                            </a>
+                        </div>
                     </div>
 
                 </div>
@@ -1054,7 +1104,7 @@
             <div class="touch-container">
                 <h2 class="section-heading">Get In Touch</h2>
                 <div class="touch-box">
-                    <div class="left-box">
+                    <div class="left-box" data-aos="fade-right">
                         <h3 class="head40">Lorem ipsum dolor sit amet, consectetur adipiscing elit nullam nunc just.
                         </h3>
                         <form action="">
@@ -1073,7 +1123,7 @@
                             </button>
                         </form>
                     </div>
-                    <div class="right-box">
+                    <div class="right-box" data-aos="fade-left">
                         <div class="contact-box">
                             <img src="./assets/img/yellow-address.webp" alt="">
                             <div class="contact-text">
@@ -1103,20 +1153,20 @@
 
     <footer class="footer">
         <div class="social-icons">
-            <a href="#" class="fb">
+            <a href="javascript::" class="fb">
                 <img src="./assets/img/fb-foot.webp" alt="">
 
             </a>
-            <a href="#" class="twitter">
+            <a href="javascript::" class="twitter">
                 <img src="./assets/img/twitter-foot.webp" alt="">
             </a>
-            <a href="#" class="insta">
+            <a href="javascript::" class="insta">
                 <img src="./assets/img/insta-foot.webp" alt="">
             </a>
-            <a href="#" class="yt">
+            <a href="javascript::" class="yt">
                 <img src="./assets/img/yt-foot.webp" alt="">
             </a>
-            <a href="#" class="linkedin">
+            <a href="javascript::" class="linkedin">
                 <img src="./assets/img/linkedin-foot.webp" alt="">
             </a>
         </div>
@@ -1126,9 +1176,20 @@
     </footer>
     <script src="./js/jquery-3.6.0.min.js"></script>
     <script src="./js/slick.min.js"></script>
-    <script src="js/countdown.js"></script>
-    <script src="./js/jquery.circleGraphic.js"></script>
+    <script src="./js/countdown.js"></script>
+    <script src="./js/aos.js"></script>
+    <script src="./js/fancybox.js"></script>
     <script src="./js/common.js"></script>
+    <script>
+        $(document).ready(function () {
+            AOS.init({
+                duration: 900,
+                easing: 'ease-in',
+                mirror: true,
+            });
+            AOS.refresh();
+        })
+    </script>
 </body>
 
 </html>
