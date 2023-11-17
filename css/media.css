@@ -81,48 +81,48 @@
     .section-courses .courses-box .left-box .slick-dots{left: 50%;bottom: -45px;flex-direction: row;column-gap: 5rem;top: initial;}
     .section-courses .courses-box{    flex-direction: column-reverse;}
     .section-courses .courses-box .right-box {width: 90%;margin: 0 auto;}
-   .section-courses .courses-box .left-box {width: 90%;margin: 0 auto;}
-   .section-clients .client-box-wrap{column-gap: 2.5rem;}
-   .section-clients .client-box-wrap .head64{font-size: 5rem;}
-   .section-clients .client-box-wrap .p32{margin-top: 8px;font-size: 3.5rem;}
-   .section-what-clients-say .sider-arrow{top: -30px;right: 10px;display: flex;column-gap: 3rem;}
-   .section-loaders .inner-contain{grid-template-columns: 1fr 1fr;row-gap: 10rem;}
-   .container-sm{display: flex;flex-direction: column;align-items: center;row-gap: 7rem;padding: 5rem;}
-   .section-what-clients-say .left-box:after{left: 10px;bottom: 10px;}
-   .section-founder .right-box, .section-founder .left-box{width: 100%;text-align: center;}
-   .section-enjoy .text-box .audio-box .left-box {width: 65px;margin-right: 3rem;}
-   .section-enjoy .text-box .audio-box .right-box {width: 83.5%;}
-   .section-enjoy .text-box .audio-box .right-box .top .player-btns {display: flex;column-gap: 5.16px;width: 75px;}    
-   .section-founder .right-box .p32{padding-right: 0rem;}
-   .section-program .left-box, .section-why-msc .left-box{width: 90%;margin: 0 auto;}
-   .section-services .services-box-wrap{grid-template-columns: 1fr 1fr;    grid-row-gap: 2.6rem;grid-column-gap: 2rem;}
-   .section-services .services-box{padding: 10px;border: solid 1px #000;}
-   .section-services .services-box .head48{font-size: 4rem;}
-   .section-services .services-box p{font-size: 3.5rem;}
-   .section-improve .improve-box{flex-direction: column;    row-gap: 7rem;}
-   .section-improve .improve-box .left-box{width: 80%;}
-   .section-improve .improve-box .right-box{width: 90%;}
-   .section-what-clients-say .left-box{display: block;width: 80%;margin: 0 auto;}
-   .section-what-clients-say .right-box{display: block;width: 100%;padding-left: 0rem;margin: 7rem auto 0rem;}
-   .section-what-clients-say .right-box p{width: 100%;}
-   .section-what-clients-say .client-box-wrapper{grid-template-columns: 1fr 1fr;}
-   .section-event-countdown .countdown-box-wrap{max-width: 66.9rem;}
-   .section-loaders .inner-contain{flex-wrap: wrap;justify-content: center;}
-   .section-upcoming .events-grid{grid-template-columns: 1fr;    grid-row-gap: 7rem;}
-   .section-why-msc{background: none !important;}
-   .section-enjoy{background-position: left;}
-   .section-touch .touch-box{grid-template-columns: 1fr;grid-row-gap: 10rem;}
-   .form-download-ebook{grid-template-columns: 1fr;}
-   .form-download-ebook .submit-input-box{grid-column: 1;}
-   .section-podcast .tab-container .tab .right-box{flex-direction: column;row-gap: 7rem;}
-   .section-podcast .podcast-tabBtns{max-width: 70.6rem;}
-   .section-podcast .podcast-tabBtns .tabBtn{font-size: 4.4rem;}
-   .section-enjoy{padding: 21.4rem 0rem 21.4rem 0rem;}
-   .section-enjoy .text-box {width: 85%;margin: 0 auto;}
-   .section-touch .touch-box .right-box .contact-box a{font-size: 3.4rem;}
-   .footer .social-icons a {width: 6rem;}
-   .footer .foot-text p{line-height: 1.5;margin-top: 4rem;text-align: center;}
-   .section-event-countdown .container-sm .left-box {width: 100%;}
+    .section-courses .courses-box .left-box {width: 90%;margin: 0 auto;}
+    .section-clients .client-box-wrap{column-gap: 2.5rem;}
+    .section-clients .client-box-wrap .head64{font-size: 5rem;}
+    .section-clients .client-box-wrap .p32{margin-top: 8px;font-size: 3.5rem;}
+    .section-what-clients-say .sider-arrow{top: -30px;right: 10px;display: flex;column-gap: 3rem;}
+    .section-loaders .inner-contain{grid-template-columns: 1fr 1fr;row-gap: 10rem;}
+    .container-sm{display: flex;flex-direction: column;align-items: center;row-gap: 7rem;padding: 5rem;}
+    .section-what-clients-say .left-box:after{left: 10px;bottom: 10px;}
+    .section-founder .right-box, .section-founder .left-box{width: 100%;text-align: center;}
+    .section-enjoy .text-box .audio-box .left-box {width: 65px;margin-right: 3rem;}
+    .section-enjoy .text-box .audio-box .right-box {width: 83.5%;}
+    .section-enjoy .text-box .audio-box .right-box .top .player-btns {display: flex;column-gap: 5.16px;width: 75px;}    
+    .section-founder .right-box .p32{padding-right: 0rem;}
+    .section-program .left-box, .section-why-msc .left-box{width: 90%;margin: 0 auto;}
+    .section-services .services-box-wrap{grid-template-columns: 1fr 1fr;    grid-row-gap: 2.6rem;grid-column-gap: 2rem;}
+    .section-services .services-box{padding: 10px;border: solid 1px #000;}
+    .section-services .services-box .head48{font-size: 4rem;}
+    .section-services .services-box p{font-size: 3.5rem;}
+    .section-improve .improve-box{flex-direction: column;    row-gap: 7rem;}
+    .section-improve .improve-box .left-box{width: 80%;}
+    .section-improve .improve-box .right-box{width: 90%;}
+    .section-what-clients-say .left-box{display: block;width: 80%;margin: 0 auto;}
+    .section-what-clients-say .right-box{display: block;width: 100%;padding-left: 0rem;margin: 7rem auto 0rem;}
+    .section-what-clients-say .right-box p{width: 100%;}
+    .section-what-clients-say .client-box-wrapper{grid-template-columns: 1fr 1fr;}
+    .section-event-countdown .countdown-box-wrap{max-width: 66.9rem;}
+    .section-loaders .inner-contain{flex-wrap: wrap;justify-content: center;}
+    .section-upcoming .events-grid{grid-template-columns: 1fr;    grid-row-gap: 7rem;}
+    .section-why-msc{background: none !important;}
+    .section-enjoy{background-position: left;}
+    .section-touch .touch-box{grid-template-columns: 1fr;grid-row-gap: 10rem;}
+    .form-download-ebook{grid-template-columns: 1fr;}
+    .form-download-ebook .submit-input-box{grid-column: 1;}
+    .section-podcast .tab-container .tab .right-box{flex-direction: column;row-gap: 7rem;}
+    .section-podcast .podcast-tabBtns{max-width: 70.6rem;}
+    .section-podcast .podcast-tabBtns .tabBtn{font-size: 4.4rem;}
+    .section-enjoy{padding: 21.4rem 0rem 21.4rem 0rem;}
+    .section-enjoy .text-box {width: 85%;margin: 0 auto;}
+    .section-touch .touch-box .right-box .contact-box a{font-size: 3.4rem;}
+    .footer .social-icons a {width: 6rem;}
+    .footer .foot-text p{line-height: 1.5;margin-top: 4rem;text-align: center;}
+    .section-event-countdown .container-sm .left-box {width: 100%;}
     .left-enq-form .form-box button{font-size: 2.6rem !important;}
     .left-enq-form .close-enq{font-size: 2.2rem;color: #fff;}
     .left-enq-form.active{width: 60rem;}
@@ -145,6 +145,5 @@
     .is-compact .fancybox__footer .fancybox__caption{text-align: center;}
     .section-alumni .container-sm{display: block;}
     .section-contact-us p,.section-community .p32{font-size: 4rem;}
-
     /* .section-community .p32{;font-size: 4rem;} */
  }

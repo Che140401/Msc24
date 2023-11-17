@@ -43,7 +43,7 @@ p,.p24{font-size: 2.4rem;}
 .container-sm{width: 90%;max-width: 1619px;margin: 0 auto;}
 .section-event-countdown .container-sm .left-box {width: 46.6%;}
 .container-xs{width: 90%;max-width: 1392px;margin: 0 auto;}
-
+.fancybox__caption{    font-size: 4rem;font-family: 'og-semibold';letter-spacing: 2px;}
 /* circle progress */
 .circle-chart {
     width: 85%;

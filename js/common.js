@@ -52,7 +52,7 @@ $(document).ready(function () {
     $(".section-gallery .slick-next").trigger("click")
   })
 
-  $('.banner-slider').slick({
+  $('.banner-slider-1').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: false,
@@ -109,7 +109,7 @@ $(document).ready(function () {
   }
   // Code here will continue to execute even if there was an error in the try block
   // console.log('Execution continues...');
-  
+
   $(function ($, win) {
     $.fn.inViewport = function (cb) {
       return this.each(function (i, el) {
@@ -208,6 +208,15 @@ $(document).ready(function () {
   // }
 
 });
+
+$(document).ready(function () {
+  AOS.init({
+    duration: 900,
+    easing: 'ease-in',
+    mirror: true,
+  });
+  AOS.refresh();
+})
 
 Fancybox.bind('[data-fancybox="client-video"]', {
   Thumbs: {
