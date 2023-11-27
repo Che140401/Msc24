@@ -13,10 +13,13 @@
  @media screen and (max-width: 1500px) {
      html{font-size: 45%;}
      .alumni-img img {width: 31rem;}
+     .alumni-box h4{font-size: 2.6rem;}
+     
  }
  
  @media screen and (max-width: 1300px) {
      html{font-size: 40%;}
+     .section-alumni .box-wrapper{grid-template-columns: repeat(6,1fr);}
  }
  
  @media screen and (max-width: 1279px) {
@@ -60,6 +63,8 @@
     .left-enq-form .form-box input, .left-enq-form .form-box textarea {color: #cfcbcb;font-size: 1.9rem;padding: 2rem 1rem;}
     .left-enq-form .form-box textarea{height: auto;}
     .left-enq-form .close-enq i{font-size: 3.5rem;}
+    .section-alumni .box-wrapper{grid-template-columns: repeat(4,1fr);gap: 2rem;}
+    .section-alumni .alumni-search-form input{font-size: 3.5rem;}
  }
  
  @media screen and (max-width: 767px) {
@@ -125,13 +130,13 @@
     .section-event-countdown .container-sm .left-box {width: 100%;}
     .left-enq-form .form-box button{font-size: 2.6rem !important;}
     .left-enq-form .close-enq{font-size: 2.2rem;color: #fff;}
-    .left-enq-form.active{width: 60rem;}
-    .left-enq-form .inner-form {padding: 2.5rem;width: 100% !important;}
+    .left-enq-form.active{    width: 90vw;}
+    .left-enq-form .inner-form {padding: 2.5rem 3rem;width: 100% !important;}
     .left-enq-form .close-enq {font-size: 4.2rem;color: #fff;}
-    .left-enq-form .form-title{font-size: 3.5rem;}
-    .left-enq-form .form-box {padding: 2rem 0;}
-    .left-enq-form .form-box input, .left-enq-form .form-box textarea {color: #cfcbcb;font-size: 2.9rem;padding: 4rem 1rem;}
-    .left-enq-form .form-box button {font-size: 3.6rem !important;}
+    .left-enq-form .form-title{font-size: 5.5rem;}
+    .left-enq-form .form-box {padding: 3.5rem 0;}
+    .left-enq-form .form-box input, .left-enq-form .form-box textarea {color: #cfcbcb;    color: #cfcbcb;font-size: 4rem;padding: 5rem 2rem;}
+    .left-enq-form .form-box button {font-size: 4rem !important;padding: 2rem 4rem;}
     .alumni-search-form {grid-template-columns: 1fr;text-align: center;}
     .section-alumni .box-wrapper {grid-template-columns: 1fr 1fr;}
     .section-alumni-family .left-box,
@@ -145,5 +150,7 @@
     .is-compact .fancybox__footer .fancybox__caption{text-align: center;}
     .section-alumni .container-sm{display: block;}
     .section-contact-us p,.section-community .p32{font-size: 4rem;}
+    .section-gallery .slider-btn{justify-content: end;}
+    .alumni-box h4{    font-size: 3.8rem;}
     /* .section-community .p32{;font-size: 4rem;} */
  }
