@@ -33,6 +33,7 @@ p,.p24{font-size: 2.4rem;}
 .white-btn:hover{background-color:#c0c0c0;}
 .white-btn p{color: var(--black);line-height: 1;font-family: 'og-medium';}
 .text-center{text-align: center;}
+.overflow{overflow: auto;}
 
 
 .mb25{margin-bottom: 2.5rem;}
@@ -522,7 +523,8 @@ p,.p24{font-size: 2.4rem;}
 .alumni-box h4{font-family: 'og-semibold';margin-bottom: 2rem;}
 .alumni-box .p24{font-family: 'og-medium';}
 .alumni-box{padding-top: 5.6rem;padding: 3.1rem 1rem;}
-.section-alumni .box-wrapper{display: grid;grid-template-columns: repeat(8,1fr);gap: 1rem;}
+/* .section-alumni .box-wrapper{display: grid;grid-template-columns: repeat(8,1fr);gap: 1rem;margin-bottom: 2rem;} */
+.section-alumni .box-wrapper{display: grid;grid-template-columns: repeat(8,1fr);gap: 1rem;margin-bottom: 2rem;}
 .alumni-search-form button:hover,.section-contact-us .btn:hover,.section-community .btn:hover{background-color: #00ACEE;background-color: var(--yellow);}
 
 /* ----------------------- SECTION JOIN ALUMNI COMMUNITY------------------------ */

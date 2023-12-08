@@ -19,13 +19,13 @@
  
  @media screen and (max-width: 1300px) {
      html{font-size: 40%;}
-     .section-alumni .box-wrapper{grid-template-columns: repeat(6,1fr);}
  }
  
  @media screen and (max-width: 1279px) {
      html{font-size: 35% ;}
      .section-banner .banner-slider .slider-child .banner-text{top: 50%;}
      .alumni-search-form {grid-template-columns: 33.33% 33.3% 33.33%;}
+     .section-alumni .box-wrapper{grid-template-columns: repeat(6,1fr);}
  }
  
  @media screen and (max-width: 1023px) {
@@ -138,7 +138,7 @@
     .left-enq-form .form-box input, .left-enq-form .form-box textarea {color: #cfcbcb;    color: #cfcbcb;font-size: 4rem;padding: 5rem 2rem;}
     .left-enq-form .form-box button {font-size: 4rem !important;padding: 2rem 4rem;}
     .alumni-search-form {grid-template-columns: 1fr;text-align: center;}
-    .section-alumni .box-wrapper {grid-template-columns: 1fr 1fr;}
+    .section-alumni .box-wrapper {grid-template-columns: repeat(4,1fr);}
     .section-alumni-family .left-box,
     .section-alumni-family .right-box {display: block;width: 100%;padding: 0;}
     .section-alumni-family .left-box {margin-bottom: 5rem;}
